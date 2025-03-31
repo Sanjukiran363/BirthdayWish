@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('photo.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            text-align: left;
+            color: #FFD700;
+            font-family: 'Dancing Script', cursive;
+        }
+        .message-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 12px;
+            max-width: 35%;
+            margin: 20px;
+            box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 5px 0;
+            text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.8);
+        }
+        p {
+            font-size: 1.3rem;
+            margin: 5px 0;
+        }
+        
+        @media screen and (max-width: 768px) {
+            body {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .message-container {
+                max-width: 80%;
+                padding: 10px;
+                margin-top: auto;
+                margin-bottom: 10%; /* Pushes message lower */
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1>Happy Birthday!</h1>
+        <p>May your day be filled with love, laughter, and unforgettable moments! 🎉✨</p>
+    </div>
+</body>
+</html>
